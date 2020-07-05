@@ -1,0 +1,249 @@
+/* laptop  ----------- */
+
+@media (min-width: 1920px) {
+	
+	.container{
+		max-width:1500px;
+	}
+	
+}
+
+@media only screen and (max-width : 1700px) {
+
+    .hero {
+        padding: 300px 0px;
+    
+    
+    }
+
+}
+
+/* laptop  ----------- */
+
+@media only screen and (max-width : 1200px) {
+	
+.main-header .navbar-brand {
+    width: 100px;
+}
+
+.hero {
+    padding: 250px 0px;
+}
+
+	
+.hero h2 {
+    font-size: 40px;
+    line-height: 54px;
+}	
+
+h2.main-title {
+    font-size: 30px;
+	margin-bottom:30px;
+}
+
+.list-box-group .list_content {
+    margin-bottom: 20px;
+    padding-top: 0px;
+}
+
+.subscribe{
+	background:url(../images/phn-bg.png) bottom center no-repeat;
+
+}
+	
+}
+
+
+
+/* Smartphones & tablet pc  (wide) ----------- */
+@media only screen and (max-width : 1024px) {
+	
+h2.main-title {
+    font-size: 24px;
+}	
+
+.list-box-group .list_content p,.services-2 .content-sr2,.list-box-group_2 .list_content, .list-box-group_2 .list_content p,.content-sbs,.copy-right p,.subscribe .email-box .input-box {
+    font-size: 13px;
+}
+.info_text{
+	font-size: 12px;
+}
+
+.hero {
+    padding: 200px 0px;
+}
+.copy-right {
+    padding: 20px 0px;
+    margin-top: -10px;
+}
+
+	
+}
+
+
+
+/* Smartphones (wide) ----------- */
+@media only screen and (max-width : 991px) {
+
+.services-2 .main-side_img{
+	margin-bottom:30px;}
+
+.subscribe .email-box .input-box {
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+.subscribe .email-box .send_btn {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 30px;
+    line-height: 50px;
+    font-size: 14px;
+}
+	
+.subscribe .email-box:after {
+   top: 17px;
+    left: 15px;
+}	
+	
+.hero {
+    padding: 100px 0px 55px 0px;
+}
+	
+	
+}
+
+
+
+
+
+/* Smartphones (wide) ----------- */
+@media only screen and (max-width : 768px) {
+.main-header .navbar-brand {
+    width: 100px;
+}
+	
+.hero h2 {
+    font-size: 32px;
+    line-height: 46px;
+}	
+
+.hero p {
+    font-size: 14px;
+}	
+
+
+.list-box-group_4{
+	margin-top:30px;
+	
+}
+
+.list-box-group_4 li{
+	width:50%;
+	float:left;}	
+	
+
+.list-box-group_3 li .icon-box {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(34, 47, 62, 0.05);
+    border: 1px solid rgba(34, 47, 62, 0.1);
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.list-box-group_2 .list_content {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+	
+	
+.subscribe{background-image:none;}
+	
+.list-box-group_2 .list_content:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    top: 5px;
+}	
+	
+.list-box-group .list_content{
+	padding-left:90px;
+	margin-bottom:30px;
+	}
+	
+	
+.list-box-group .list_content .icon-box{
+		margin-bottom:15px;
+		}
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width : 575px) {
+
+.hero h2 {
+    font-size: 28px;
+    line-height: 36px;
+	margin-bottom:15px;
+}
+	
+.subscribe .email-box .input-box {
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 30px; 
+	position:relative;
+	margin-bottom:20px;
+	
+	}	
+	
+.subscribe .email-box .send_btn	{
+	position:static;
+	width:100%;
+	display:block;
+	max-width:100%;	
+    line-height: 30px;
+	}
+.subscribe .email-box:after {
+    top: 6px;
+    left: 15px;
+}
+	
+}
+
+
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 480px) {
+	
+	
+	
+	
+	
+}
